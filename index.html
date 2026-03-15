@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/index.css" />
+
+        <title>Temperature Converter</title>
+    </head>
+
+    <body>
+        <h1>Simple Temperature Converter:</h1>
+
+        <div id="converter_Cont">
+            <div id="Fah-Cel_Cont">
+                <h3>Fahrenheit to Celsius</h3>
+                <input id="fahrenheit" placeholder="Fahrenheit" />
+                <button onclick="convertToCelsius()">Convert</button>
+
+                <p id="returnCelsius">Answer: -</p>
+            </div>
+
+            <div id="Cel-Fah_Cont">
+                <h3>Celsius to Fahrenheit</h3>
+                <input id="celsius" placeholder="Celsius" />
+                <button onclick="convertToFahrenheit()">Convert</button>
+
+                <p id="returnFahrenheit">Answer: -</p>
+            </div>
+        </div>
+
+        <div id="info_Cont">
+            <h2>Example/ Test:</h2>
+            <p>(Fahrenheit)- If it is 32 °F, (Celsius)- It will be 0 °C.</p>
+            <p>(32 °F = 0 °C)</p>
+
+            <h2>How to convert:</h2>
+            <p>
+                To convert from Fahrenheit to Celsius, you can use the formula:
+                (F - 32)
+                * 5/9 = C.
+            </p>
+            <p>
+                To convert from Celsius to Fahrenheit, you can use the formula:
+                (C *
+                9/5) + 32 = F.
+            </p>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+
+</html>
