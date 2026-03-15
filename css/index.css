@@ -5,6 +5,7 @@
 }
 
 h1 {
+    font-size: 48px;
     text-align: center;
     margin-top: 20px;
 }
@@ -12,21 +13,33 @@ h1 {
 #converter_Cont {
     display: block;
     width: 300px;
-    border: 1px solid red;
     margin: 0 auto;
     margin-top: 50px;
 }
 
-/* Fahrenheit to Celsius */
+#converter_Cont h3 {
+    margin-bottom: 10px;
+}
+
+#returnCelsius,
+#returnFahrenheit {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+/** Fahrenheit to Celsius */
 #Fah-Cel_Cont {
     display: inline-block;
     border: 1px solid black;
     border-radius: 10px;
     width: 260px;
+    text-align: center;
     padding: 20px;
-
     margin: 20px;
-    /* margin-left: 40rem; */
+    box-shadow: 0px 0px 10px black;
 }
 
 #Cel-Fah_Cont {
@@ -34,9 +47,10 @@ h1 {
     border: 1px solid black;
     border-radius: 10px;
     width: 260px;
+    text-align: center;
     padding: 20px;
-
     margin: 20px;
+    box-shadow: 0px 0px 10px black;
 }
 
 #info_Cont {
@@ -44,6 +58,14 @@ h1 {
     border: 1px solid black;
     border-radius: 10px;
     width: 300px;
+    padding: 5px;
     margin: 0 auto;
     margin-top: 50px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#info_Cont h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
