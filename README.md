@@ -6,7 +6,7 @@ This is a simple temperature converter that converts Celsius to Fahrenheit and v
 
 ## Info:
 
-[Website](https://jfortin87.github.io/Temperature-Converter/)
+[Website](https://jfortin87.github.io/Temperature-Converter/),
 [GitHub Repository](https://github.com/Jfortin87/Temperature-Converter)
 
 - **Author**: JFortin,
